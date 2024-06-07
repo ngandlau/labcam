@@ -13,13 +13,11 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('App Title'),
-          backgroundColor: Colors.indigo[200],
+          title: const Text('labcam'),
         ),
         body: Center(
           child: Column(children: [
             const Text('Hello World'),
-            const Icon(Icons.star, color: Colors.amber, size: 48.0),
             ElevatedButton(
               onPressed: () {
                 print('Button Pressed');
